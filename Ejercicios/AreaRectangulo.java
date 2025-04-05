@@ -1,7 +1,10 @@
+/*Crea un programa que calcule el área de un rectángulo usando variables base y altura.*/
+
+package Ejercicios;
+
 import java.util.Scanner;
 
 public class AreaRectangulo {
-
     public static void main(String args[]) {
         int base;
         int altura;
@@ -17,5 +20,7 @@ public class AreaRectangulo {
         area = base * altura;
         
         System.out.println("El área es igua a: " + area);
+        input.close();
     }
+    
 }
