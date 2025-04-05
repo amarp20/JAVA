@@ -14,5 +14,6 @@ public class HolaMundo {
         System.out.println("Tu nombre es " + nombre);//Aquí decimos que nos imprima el mensaje y la variable nombre.
         nombre = "María";
         System.out.println("Hola " + nombre);//Ejecutará de nuevo un saludo, en este caso sin introducir el dato desde fuera, se lo hemos dado en la línae anterior.
+        scan.close();
     }
 }
