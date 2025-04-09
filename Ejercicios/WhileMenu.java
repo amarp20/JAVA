@@ -1,4 +1,4 @@
-/*Crea un bucle do-while que imprima un menú hasta que el usuario elija salir. */
+//Crea un bucle do-while que imprima un menú hasta que el usuario elija salir.
 package Ejercicios;
 
 import java.util.Scanner;
