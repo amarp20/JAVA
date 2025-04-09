@@ -12,7 +12,7 @@ public class MenuAmplio {
             System.out.println("Seleccione una opción: ");
             System.out.println("Introduzca 1 para generar otro registro: ");
             System.out.println("Introduzca 2 para ver todos los registro: ");
-            System.out.println("Introduzca 3 para generar otro registro: ");
+            System.out.println("Introduzca 3 para salir: ");
             
 
             String opcion = input.nextLine();
@@ -35,6 +35,7 @@ public class MenuAmplio {
             }
         } while (estado==true);
         System.out.println("Gracias por jugar.");
+        input.close();
         
     }
     

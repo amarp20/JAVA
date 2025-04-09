@@ -33,7 +33,7 @@ public class FuncionStatic {
 
         verificar(usuario, contrasenia); //generamos una llamada al método verificar habiendo creado antes los dos string necesaros.
 
-        String usuario1 = "Juancho";
+        String usuario1 = "Juan";
         String contrasenia1 = "MiContrasenia2";
 
         verificar(usuario1, contrasenia1); //generamos otra llamada para comprobar que el resultado será erróneo.

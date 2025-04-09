@@ -16,5 +16,6 @@ public class RestarUno {
             numero--;
             System.out.println(numero);
             }
+            input.close();
     } 
 }
