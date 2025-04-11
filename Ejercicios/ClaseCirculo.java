@@ -4,23 +4,22 @@ package Ejercicios;
 
 public class ClaseCirculo {
 
-    float radio;
+    double radio;
     
-    public ClaseCirculo(float radio){
+    public ClaseCirculo(double radio){
         this.radio = radio;
     }
     public static void main(String args[]) {
-        ClaseCirculo Circulo1 = new ClaseCirculo(8.9f);
+        ClaseCirculo Circulo1 = new ClaseCirculo(8.9);
         Circulo1.calcularArea();
-        ClaseCirculo Circulo2 = new ClaseCirculo(14.7f);
+        ClaseCirculo Circulo2 = new ClaseCirculo(14.7);
         Circulo2.calcularArea();
         
     }
         
     public void calcularArea() {
-        
-        System.out.println("El área del círculo es" + String.format("%.2f", (2 * Math.PI * radio)));
-        
-    }
-    
+        double area = Math.PI * Math.pow(radio, 2); 
+        String areaDosDecimales = String.format("%.2f", area); 
+        System.out.println("El área del círculo es " + areaDosDecimales); 
+    } 
 }

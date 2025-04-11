@@ -1,5 +1,3 @@
-import Coche;
-
 public class ImportarClase {
 
     public static void main(String args[]) {
@@ -8,6 +6,5 @@ public class ImportarClase {
         miCoche.modelo = "Corolla";
         miCoche.velocidad = 120;
         miCoche.mostrarInfo();
-    }
-    
+    }  
 }
